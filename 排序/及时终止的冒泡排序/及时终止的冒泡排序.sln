@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "及时终止的冒泡排序", "及时终止的冒泡排序\及时终止的冒泡排序.vcxproj", "{4D9EEAA7-1090-4668-AA55-EB3A3D83583B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D9EEAA7-1090-4668-AA55-EB3A3D83583B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D9EEAA7-1090-4668-AA55-EB3A3D83583B}.Debug|Win32.Build.0 = Debug|Win32
+		{4D9EEAA7-1090-4668-AA55-EB3A3D83583B}.Release|Win32.ActiveCfg = Release|Win32
+		{4D9EEAA7-1090-4668-AA55-EB3A3D83583B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

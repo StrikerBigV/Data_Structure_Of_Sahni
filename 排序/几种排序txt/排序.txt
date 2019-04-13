@@ -1,0 +1,100 @@
+const int maxn=111;
+int orgin[maxn],tempOrgin[maxn],result[maxn];
+int n;
+bool isSame(int A[],int B[])
+{
+    for(int i=1;i<=n;i++)
+    {
+        if(A[i]!=B[i]) return false;
+    }
+    return true;
+}
+void showArray()
+{
+    for(int i=1;i<=n;i++)
+    {
+        printf("%d",tempOrgin[i]);
+        if(i<n) printf(" ");
+        else printf("\n");
+    }
+}
+void selectSort()
+{
+    for(int i=1;i<=n;i++)
+    {
+        int k=i;
+        for(int j=i;j<=n;j++)
+        {
+            if(tempOrgin[k]>tempOrgin[j])
+                k=j;
+        }
+        swap(tempOrgin[i],tempOrgin[k]);
+    }
+}
+void insertSort()
+{
+    for(int i=2;i<=n;i++)
+    {
+        sort(tempOrgin,tempOrgin+i+1);
+    }
+}
+void mergeSort()
+{
+    for(int step=2;step/2<=n;step*=2)
+    {
+        for(int i=1;i<=step;i++)
+        {
+            sort(tempOrgin+i,tempOrgin+min(i+step,n+1));
+        }
+    }
+}
+int position(int left,int right)
+{
+    int temp=tempOrgin[left];
+    while(left<right)
+    {
+        while(left<right&&tempOrgin[right]>temp) right--;
+        tempOrgin[left]=tempOrgin[right];
+        while(left<right&&tempOrgin[left]<=temp) left++;
+        tempOrgin[right]=tempOrgin[left];
+    }
+    tempOrgin[left]=temp;
+    return left;
+}
+void quickSort(int left,int right)
+{
+    if(left<right)
+    {
+        int pos=position(left,right);
+        quickSort(left,pos-1);
+        quickSort(pos+1,right);
+    }
+}
+void shiftDown(int low,int high)
+{
+    int i=low,j=2*i;
+    while(j<=high)
+    {
+        while(j+1<=high&&tempOrgin[j+1]>tempOrgin[j])
+            j=j+1;
+        if(tempOrgin[i]<tempOrgin[j])
+        {
+            swap(tempOrgin[i],tempOrgin[j]);
+            i=j;
+            j=i*2;
+        }
+        else break;
+    }
+}
+void heapSort()
+{
+    for(int i=n/2;i>=1;i--)
+    {
+        shiftDown(i,n);
+    }
+    for(int i=n;i>1;i--)
+    {
+        swap(tempOrgin[1],tempOrgin[i]);
+        shiftDown(1,i-1);
+    }
+}

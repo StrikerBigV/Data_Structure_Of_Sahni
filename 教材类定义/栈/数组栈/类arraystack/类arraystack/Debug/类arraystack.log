@@ -1,0 +1,13 @@
+﻿生成启动时间为 2018/3/18 20:53:07。
+     1>项目“D:\数据结构及算法\教材主程序\栈\数组栈\类arraystack\类arraystack\类arraystack.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\数据结构及算法\教材主程序\栈\数组栈\类arraystack\Debug\”。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt solution.cpp
+         solution.cpp
+     1>d:\数据结构及算法\教材主程序\栈\数组栈\类arraystack\类arraystack\solution.cpp(17): error C2143: 语法错误 : 缺少“;”(在“template”的前面)
+     1>已完成生成项目“D:\数据结构及算法\教材主程序\栈\数组栈\类arraystack\类arraystack\类arraystack.vcxproj”(ClCompile 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.66

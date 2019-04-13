@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/3/18 20:22:27。
+     1>项目“D:\数据结构及算法\教材主程序\线性表\链式描述\类chain\类chain\类chain.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\数据结构及算法\教材主程序\线性表\链式描述\类chain\Debug\”。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt solution.cpp
+         solution.cpp
+     1>d:\数据结构及算法\教材主程序\线性表\链式描述\类chain\类chain\solution.cpp(19): error C2143: 语法错误 : 缺少“,”(在“<”的前面)
+                 d:\数据结构及算法\教材主程序\线性表\链式描述\类chain\类chain\solution.cpp(45): 参见对正在编译的类 模板 实例化“chain<T>”的引用
+     1>d:\数据结构及算法\教材主程序\线性表\链式描述\类chain\类chain\solution.cpp(43): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>d:\数据结构及算法\教材主程序\线性表\链式描述\类chain\类chain\solution.cpp(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\数据结构及算法\教材主程序\线性表\链式描述\类chain\类chain\solution.cpp(43): error C2238: 意外的标记位于“;”之前
+     1>已完成生成项目“D:\数据结构及算法\教材主程序\线性表\链式描述\类chain\类chain\类chain.vcxproj”(ClCompile 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.90

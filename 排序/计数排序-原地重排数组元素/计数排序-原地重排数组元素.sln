@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "计数排序-原地重排数组元素", "计数排序-原地重排数组元素\计数排序-原地重排数组元素.vcxproj", "{C48681A0-71E8-4E47-9CF0-C203B426A8D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C48681A0-71E8-4E47-9CF0-C203B426A8D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C48681A0-71E8-4E47-9CF0-C203B426A8D8}.Debug|Win32.Build.0 = Debug|Win32
+		{C48681A0-71E8-4E47-9CF0-C203B426A8D8}.Release|Win32.ActiveCfg = Release|Win32
+		{C48681A0-71E8-4E47-9CF0-C203B426A8D8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

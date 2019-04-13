@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组描述 类arrayQueue", "数组描述 类arrayQueue\数组描述 类arrayQueue.vcxproj", "{5FF4F344-84AB-44C8-82F1-0EF2E3656F73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FF4F344-84AB-44C8-82F1-0EF2E3656F73}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FF4F344-84AB-44C8-82F1-0EF2E3656F73}.Debug|Win32.Build.0 = Debug|Win32
+		{5FF4F344-84AB-44C8-82F1-0EF2E3656F73}.Release|Win32.ActiveCfg = Release|Win32
+		{5FF4F344-84AB-44C8-82F1-0EF2E3656F73}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
